@@ -32,10 +32,10 @@ public class Ex1Main {//설계도
 		
 		//cr이 가지고 있는 무기의 이름을 변경하고 출력
 		cr.wp.name="튼튼한 대검";
-		System.out.println(cr.wp.name);
+		System.out.println(cr.wp.name);//name: 레퍼런스타입 인스턴스변수, 멤버변수,
 		
 		wp.name ="도끼";
-		System.out.println(cr.wp.name);
+		System.out.println(cr.wp.name);//참조변수
 		
 		
 		
@@ -45,6 +45,8 @@ public class Ex1Main {//설계도
 		System.out.println("마나 : " + cr.mp);
 		System.out.println("골드 : " + cr.gold); //heap영역에 들어가면 초기화가 자동으로 된다.
 		
+		
+		//ch.wp(힙영역에 저장,멤버변수,참조변수)
 		
 		
 		//몬스터 생성
